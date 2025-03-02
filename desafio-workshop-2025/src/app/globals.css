@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+@font-face {
+  font-family: "MinhaFonte";
+  src: url("/fonts/Pokemon Solid.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MinhaFonte2";
+  src: url("/fonts/Catesoge-DEMO.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to top, #437741, #56A69E, #1BB5F2, #D5E5F2);
+  font-family: "MinhaFonte2", sans-serif;
+}
+
+h1, li{
+  font-family: "MinhaFonte", sans-serif;
+}
+
+.text-outline {
+  text-shadow: 
+    -3px -3px 0 #2575BB,  
+     3px -3px 0 #2575BB,
+    -3px  3px 0 #2575BB,
+     3px  3px 0 #2575BB;
+}
